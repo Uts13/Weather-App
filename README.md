@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Weather Dashboard
+
+## Description
+A weather dashboard built with React, displaying current weather and a 5-day forecast. Supports adding favorite cities and toggling between Celsius and Fahrenheit.
+
+## Setup Instructions
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Start JSON Server: `npx json-server --watch server/db.json --port 5000`.
+4. Run the application: `npm start`.
+
+## API Key
+1. Register for an OpenWeatherMap API key.
+2. Replace `YOUR_API_KEY` in `src/api.js` with your key.
